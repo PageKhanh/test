@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#part1{
+    display: flex;
+    /* position: relative; */
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.ic1 {
+    height: 50px;
+    width: 200px;
+   
+
+}
+img {
+    height: 45px;
+    width: 200px;
+    display: block;
+    justify-content: center;
+    border: 10px ;
+}
+.ic2 {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.ic2 .button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.ic2 input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: black;
+  }
+.ic3 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+
+}
+.ic4 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+
+}
